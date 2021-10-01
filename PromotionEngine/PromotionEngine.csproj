@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PromotionLibrary\" />
+    <None Remove="ShoppingCartLibrary\" />
+    <None Remove="UnitPriceLibrary\" />
+    <None Remove="NotCurrentlyUsed\" />
+    <None Remove="SingleProductPromotionLibrary\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PromotionLibrary\" />
+    <Folder Include="ShoppingCartLibrary\" />
+    <Folder Include="UnitPriceLibrary\" />
+    <Folder Include="NotCurrentlyUsed\" />
+    <Folder Include="SingleProductPromotionLibrary\" />
+  </ItemGroup>
+</Project>
